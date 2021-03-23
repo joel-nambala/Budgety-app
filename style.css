@@ -1,0 +1,56 @@
+*{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+body{
+    background: #f4f4f4;
+    font-size: 20px;
+}
+
+.header-information{
+    background: #666;
+    color: #fff;
+    padding: 2% 0;
+    line-height: 1.4;
+}
+
+.bold-text{
+    font-size: 150%;
+}
+
+.budget-total{
+    font-size: 120%;
+}
+
+.expense-total{
+    font-size: 120%;
+}
+
+.balance-total{
+    font-size: 120%;
+}
+
+.body-information{
+    margin-top: 30px;
+}
+
+.row{
+    margin-left: 90px;
+}
+
+.row input{
+    padding: 3px 9px;
+}
+
+.error-msg{
+    margin-top: 3%;
+    width: 60%;
+    margin-left: 20%;
+}
+
+.info-msg{
+    width: 60%;
+    margin-left: 20%;
+}

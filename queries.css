@@ -1,0 +1,29 @@
+@media(max-width: 480px) {
+
+    .bold-text{ font-size: 100%; }
+
+    .body-information{
+        margin-top: 30px;
+    }
+
+    .row{ margin-left: 30px; }
+
+    .row button{
+        margin: 4% 0;
+    }
+
+    .budget, .expense, .balance{
+        font-size: 80%;
+    }
+
+    .error-msg{
+        margin-top: 2%;
+        width: 80%;
+        margin-left: 20px;
+    }
+
+    .info-msg{
+        width: 80%;
+        margin-left: 20px
+    }
+}

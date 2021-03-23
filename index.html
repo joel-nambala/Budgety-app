@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="queries.css">
+    <title>Budget Application</title>
+</head>
+<body>
+
+    <div class="budget-content">
+        <div class="header-information">
+            <div class="container">
+                <div class="text-center">
+                    <div class="bold-text">
+                        Budget available on <span class="date"></span>
+                    </div>
+                    <br>
+                    <p class="budget">Budget $ <span class="budget-total">12000</span></p>
+                    <p class="expense">Expenses $ <span class="expense-total">12000</span></p>
+                    <p class="balance">Balance $ <span class="balance-total">12000</span></p>
+                </div>
+            </div>
+        </div>
+        <div class="body-information">
+            <div class="container">
+                <p class="alert alert-info text-center info-msg"></p>
+                <p class="alert alert-danger error-msg text-center">An error has occured! Please try again</p>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <input type="number" placeholder="Enter budget" class="budget-value">
+                        <button class="btn btn-success budget-button">Budget</button>
+                    </div>
+                    <div class="col-sm-6">
+                        <input type="number" placeholder="Enter expense" class="expense-value">
+                        <button class="btn btn-success expense-button">Add expense</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
